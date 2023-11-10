@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo-List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="nav">
+            <div class="name">Hey,<input type="text" placeholder="Name.." class="nameInput"></div>
+            <div class="basic-nav">
+                <li class="item">
+                    <a href="#" class="item-a">Home</a>
+                </li>
+                <li class="item">
+                    <a href="#" class="item-a">About</a>
+                </li>
+                <li class="item">
+                    <a href="#" class="item-a">Theme</a>
+                </li>
+            </div>
+            <div class="search">
+                <input type="text" class="searchTask" placeholder="Search..">
+                <i class="fa-solid fa-magnifying-glass" id="search-icon"></i></div>
+            <div class="pin"><i class="fa-solid fa-bookmark"></i></div>         
+        </div>
+    </div>
 </body>
+<script src="app.js"></script>
+<script src="https://kit.fontawesome.com/97e3521bdf.js" crossorigin="anonymous"></script>
 </html>
