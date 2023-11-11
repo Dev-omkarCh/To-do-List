@@ -25,6 +25,7 @@ function lightTheme(){
     theme.classList.remove("darkTheme");
     circle.classList.remove("darkCircle"); 
     mode.innerText = "Light Theme";
+    mode.style.color = "black";
 }
 function darkTheme(){
     currentTheme = "dark";
@@ -34,5 +35,6 @@ function darkTheme(){
     theme.classList.add("darkTheme");
     circle.classList.add("darkCircle"); 
     mode.innerText = "Dark Theme";
+    mode.style.color = "white";
 }
 
